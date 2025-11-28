@@ -26,6 +26,21 @@ Run Kraken OCR on sample image (Windows):
 kraken -i examples\inference\input\*.png output.txt ocr -m models\vilne_yiddish_1.mlmodel
 ```
 
+## ▶️ Run the Streamlit demo app
+
+To run the demo app that uploads an image and performs OCR, install dependencies and run the Streamlit server:
+
+```bash
+pip install -r requirements.txt
+streamlit run app_streamlit.py
+```
+
+To expose it on all interfaces (useful in Codespaces or containers):
+
+```bash
+streamlit run app_streamlit.py --server.address 0.0.0.0 --server.port 8501
+```
+
 ## ✍️ Sample handwriting
 See:
 
