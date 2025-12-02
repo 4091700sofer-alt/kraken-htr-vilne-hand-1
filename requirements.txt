@@ -2,3 +2,6 @@
 streamlit
 pillow
 kraken
+
+numpy<2
+pytorch-lightning==1.9.5
