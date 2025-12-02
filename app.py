@@ -47,6 +47,8 @@ if uploaded_file is not None:
             "-i",
             input_path,
             output_path,
+            "binarize",
+            "segment",
             "ocr",
             "-m",
             model_path,
